@@ -1,0 +1,43 @@
+// 背景圖片
+main {
+    background-image: url(https://drive.google.com/uc?export=view&id=1g4lkBVtl3gs4PmmYb6i9B7lASdOEgrhs);
+}
+
+// 首頁
+.header-home {
+    background-image: url(https://drive.google.com/uc?export=view&id=1_ucaH1znVzpFK1voVbb2VVI8hRWGjc2f);
+    height: 635px;
+    background-size: cover;
+    background-position: center;
+}
+
+@include media-breakpoint-up(sm) {
+    .header-home {
+        background-image: url(https://drive.google.com/uc?export=view&id=1BrlFqzWOQQnEj5vgzcuwH5Gy7fsy4F2v);
+        height: 810px;
+    }
+}
+
+.header-home>p {
+    color: #848871;
+    text-shadow: 3px 0 #fff,
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+// 服務
+.header-service {
+    background-image: url(https://drive.google.com/uc?export=view&id=1AhJYw_-BArXOVtcdtL0pQqiCBSQK1NAl);
+    height: 215px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 414px) {
+    .header-service {
+        background-image: url(https://drive.google.com/uc?export=view&id=1JHVhVZxlPLr06PfXK3pssREDcBGOhJoe);
+        height: 288px;
+    }
+}
